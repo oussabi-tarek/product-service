@@ -29,4 +29,6 @@ public class ProductController {
     public ResponseEntity<List<ProductRepresentation>> getAllProducts(){
         log.info("get All products");
         return ResponseEntity.ok(productService.getAll());
-   
+    }
+
+}
