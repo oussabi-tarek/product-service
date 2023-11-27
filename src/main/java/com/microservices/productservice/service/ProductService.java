@@ -4,7 +4,6 @@ import com.microservices.productservice.domain.command.ProductCommand;
 import com.microservices.productservice.domain.model.Product;
 import com.microservices.productservice.domain.representation.ProductRepresentation;
 import com.microservices.productservice.repository.ProductRepository;
-import lombok.AllArgsConstructor;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
