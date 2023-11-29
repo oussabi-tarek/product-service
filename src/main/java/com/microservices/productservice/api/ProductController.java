@@ -30,5 +30,10 @@ public class ProductController {
         log.info("get All products");
         return ResponseEntity.ok(productService.getAll());
     }
+    @GetMapping("/{productId}")
+    public ResponseEntity<String> getProduct(@PathVariable String productId){
+        log.info("get Product {}",productId);
+        return ResponseEntity.ok("goooooooooooooooooooooooooooooood");
+    }
 
 }
