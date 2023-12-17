@@ -21,7 +21,9 @@ public class ProductServiceTest {
    @Test
    public void shouldGetAllProducts(){
        List<Product> productList=new ArrayList<>();
-   //    when(productRepository.findAll()).thenReturn(productList);
+        when(productRepository.findAll()).thenReturn(productList);
+        List<Product> products=productRepository.findAll();
+        assertEquals(products.size(),0);
        assertEquals(productList.size(),0);
    }
 
