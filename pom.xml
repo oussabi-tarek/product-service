@@ -80,7 +80,7 @@
                 </configuration>
             </plugin>
         </plugins>
-        <finalName>springboot-mongo-docker</finalName>
+        <finalName>product-service</finalName>
     </build>
 
 </project>
